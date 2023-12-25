@@ -48,7 +48,7 @@ class Bot(Client):
         logging.info(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
         logging.info(LOG_STR)
         logging.info(script.LOGO)
-        tz = pytz.timezone('Asia/Kolkata')
+        tz = pytz.timezone('Asia/Jakarta')
         today = date.today()
         now = datetime.now(tz)
         time = now.strftime("%H:%M:%S %p")
